@@ -11,7 +11,12 @@
 		<td>{{$product['id']}}</td>
 		<td>{{$product['name']}}</td>
 		<td>{{$product['price']}}</td>
-		<td><button>Buy Now</button></td>
+		<td><input id="card-holder-name" type="text">
+		<div id="card-element"></div>
+ 
+<button id="card-button" data-secret="">
+    BUY NOW
+</button></td>
 	</tr>
 	@endforeach
 </table>
